@@ -9,6 +9,7 @@ function succeed(item) {
   if (item.enhancement < 20) {
     return { ...item, enhancement: item.enhancement + 1 }
   }
+  return { ...item }
 }
 
 function fail(item) {
@@ -36,3 +37,4 @@ function get(item) {
   }
   return { ...item }
 }
+// [+7]Sword Art Online
